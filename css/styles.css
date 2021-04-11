@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 13%;
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 1em;
+}
+nav img {
+  height: 20px;
+  width: 20px;
+}
+.fa-google {
+  color: #fff;
+  background-color: rgb(241, 81, 81);
+  padding: 0.4em;
+  border-radius: 50%;
+}
+main {
+  width: 50%;
+  margin: 9em auto;
+  text-align: center;
+}
+main img {
+  height: 150px;
+}
+input {
+  width: 80%;
+  padding: 1em;
+  border: 1px solid gray;
+  border-radius: 2em;
+}
+.g-icon {
+  position: relative;
+  width: 78%;
+  bottom: 1.7em;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.g-icon i {
+  cursor: pointer;
+}
+.btn {
+  margin: 1em auto;
+  display: flex;
+  justify-content: space-between;
+  width: 34%;
+}
+.btn button {
+  padding: 1em;
+  border: none;
+}
+.offer {
+  display: flex;
+  margin: 1em auto;
+  text-align: center;
+  width: 50%;
+  justify-content: space-between;
+}
+.offer a {
+  color: blue;
+}
+footer {
+  background-color: rgb(233, 232, 232);
+}
+.footer-top {
+  padding: 1em;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 1em 1em 0;
+  border-top: 1px solid gray;
+}
+.left a {
+  margin-left: 1em;
+}
+.right a {
+  margin-left: 1em;
+}
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    width: 24%;
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 1em;
+  }
+  main {
+    margin: 6.4em auto;
+  }
+  main img {
+    height: 90px;
+  }
+  .btn {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+  }
+  .btn button {
+    padding: 1em;
+    margin-top: 1em;
+    border: none;
+  }
+  .offer {
+    display: none;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 425px) {
+  nav {
+    width: 34%;
+  }
+  main {
+    margin: 6em auto;
+  }
+  main img {
+    height: 50px;
+  }
+  .btn {
+    width: 50%;
+  }
+}
